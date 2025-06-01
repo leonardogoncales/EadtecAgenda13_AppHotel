@@ -1,4 +1,6 @@
-﻿namespace AppHotel
+﻿using AppHotel.Views;
+
+namespace AppHotel
 {
     public partial class App : Application
     {
@@ -6,7 +8,9 @@
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Views.ContratacaoHospedagem());
+            // MainPage = new NavigationPage(new Views.ContratacaoHospedagem());
+
+            MainPage = new Sobre();
         }
 
         protected override Window CreateWindow(IActivationState? activationState)

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppHotel.Views.Sobre"
+             Title="Sobre"
+             BackgroundColor="{StaticResource PrimaryDarkText}">
+
+    <VerticalStackLayout>
+        <Label Text="Sobre"
+               FontSize="75"
+               FontFamily="Cabin"
+               Padding="50"
+               HorizontalOptions="Center"/>
+
+        <Frame BackgroundColor="{StaticResource Primary}"
+            BorderColor="{StaticResource White}"
+            HeightRequest="200"
+            WidthRequest="300">
+
+            <VerticalStackLayout>
+                <Label Text="Nome do desenvolvedor"/>
+                
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="Transparent">
+                    
+                    <Label Text="Leonardo Lisboa Gonçales" />
+                </Frame>
+
+                <Label Text="Ano desenvolvimento"/>
+                
+                <Frame BackgroundColor="Transparent"
+                       BorderColor="Transparent">
+                    
+                    <Label Text="2025" />
+                </Frame>
+                
+            </VerticalStackLayout>
+        </Frame>
+        
+    </VerticalStackLayout>
+</ContentPage>
